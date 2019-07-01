@@ -13,6 +13,9 @@ A simple Node.js app build with Express.
 The Dockerfile and docker-compose files are used to simply create and start the backend app.
 
 
+* api-mongo
+Adds new endpoints to the backend to GET and POST contacts and connects with MongoDB.
+The docker-compose is updated to start two containers, the backend and the database.
 
 ### Work in progress....
 
