@@ -1,8 +1,8 @@
 version: '2.1'
 
 services:
-  006 - docker:
-    image: 006 - docker
+  backend:
+    image: basic-backend:latest
     build: .
     environment:
       NODE_ENV: production
