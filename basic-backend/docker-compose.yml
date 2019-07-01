@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  006 - docker:
+    image: 006 - docker
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
